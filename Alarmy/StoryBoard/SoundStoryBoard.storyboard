@@ -7,42 +7,56 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Sound-->
         <scene sceneID="pT8-xz-9JG">
             <objects>
                 <viewController id="ogL-sg-5Il" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lEp-ee-UcB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tO3-IX-C0V">
+                                <rect key="frame" x="166" y="421" width="79" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="e0A-Eh-Na4" kind="show" identifier="SoundFirstToSecond" id="tuz-Hf-fYy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="7pO-2v-P5f"/>
                     </view>
-                    <navigationItem key="navigationItem" id="M1d-fU-Dp9"/>
+                    <navigationItem key="navigationItem" title="Sound" id="M1d-fU-Dp9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ig-In-0WM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="866.66666666666674" y="-40.178571428571423"/>
+            <point key="canvasLocation" x="792.75362318840587" y="-40.178571428571423"/>
         </scene>
-        <!--View Controller-->
+        <!--Play Sound-->
         <scene sceneID="JOZ-GY-Vb1">
             <objects>
                 <viewController id="e0A-Eh-Na4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Me-2u-wXV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="oUv-vM-NNN"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Play Sound" id="mLW-hc-uG2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ihy-IB-rFL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1753.6231884057972" y="-40.178571428571423"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Sounds-->
         <scene sceneID="QZc-io-3Ao">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yse-jS-X5Y" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Sounds" image="music.note" catalog="system" id="BhC-6o-7zm"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vTj-8v-NVG">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -57,4 +71,7 @@
             <point key="canvasLocation" x="-43.478260869565219" y="-40.178571428571423"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="music.note" catalog="system" width="97" height="128"/>
+    </resources>
 </document>
