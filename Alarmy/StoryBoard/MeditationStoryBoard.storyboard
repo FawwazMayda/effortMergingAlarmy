@@ -10,7 +10,7 @@
         <!--Meditation-->
         <scene sceneID="DXT-zg-SET">
             <objects>
-                <viewController id="mbb-dB-VeW" sceneMemberID="viewController">
+                <viewController id="mbb-dB-VeW" customClass="FirstMeditationVC" customModule="Alarmy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jBn-fs-OkA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,7 +37,7 @@
         <!--Play Meditation-->
         <scene sceneID="K00-nb-tMs">
             <objects>
-                <viewController id="W9o-Mf-cux" sceneMemberID="viewController">
+                <viewController id="W9o-Mf-cux" customClass="SecondMeditationVC" customModule="Alarmy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FtZ-Gy-VdY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

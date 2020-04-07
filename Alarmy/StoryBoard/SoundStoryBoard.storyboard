@@ -10,7 +10,7 @@
         <!--Sound-->
         <scene sceneID="pT8-xz-9JG">
             <objects>
-                <viewController id="ogL-sg-5Il" sceneMemberID="viewController">
+                <viewController id="ogL-sg-5Il" customClass="FirstSoundVC" customModule="Alarmy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lEp-ee-UcB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,7 +37,7 @@
         <!--Play Sound-->
         <scene sceneID="JOZ-GY-Vb1">
             <objects>
-                <viewController id="e0A-Eh-Na4" sceneMemberID="viewController">
+                <viewController id="e0A-Eh-Na4" customClass="SecondSoundVC" customModule="Alarmy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Me-2u-wXV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

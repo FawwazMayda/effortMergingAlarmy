@@ -10,7 +10,7 @@
         <!--Alarm-->
         <scene sceneID="5FP-q5-LvL">
             <objects>
-                <viewController id="gau-UD-FiL" sceneMemberID="viewController">
+                <viewController id="gau-UD-FiL" customClass="FirstAlarmVC" customModule="Alarmy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qGc-ib-7Du">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,7 +37,7 @@
         <!--Alarm List-->
         <scene sceneID="6je-uJ-cnt">
             <objects>
-                <viewController id="K1D-Jv-9Ub" sceneMemberID="viewController">
+                <viewController id="K1D-Jv-9Ub" customClass="SecondAlarmVC" customModule="Alarmy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qQg-kc-tSj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,7 +64,7 @@
         <!--Alarm Set-->
         <scene sceneID="DIR-Qt-iBG">
             <objects>
-                <viewController id="LAK-fs-9Mf" sceneMemberID="viewController">
+                <viewController id="LAK-fs-9Mf" customClass="ThirdAlarmVC" customModule="Alarmy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V1a-qP-OGR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
