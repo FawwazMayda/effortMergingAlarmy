@@ -105,9 +105,9 @@
 		4D45E440243C7BD100637259 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				4D45E451243C7D4E00637259 /* Alarm */,
-				4D45E450243C7D4200637259 /* Meditation */,
 				4D45E44F243C7D3A00637259 /* Sound */,
+				4D45E450243C7D4200637259 /* Meditation */,
+				4D45E451243C7D4E00637259 /* Alarm */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
