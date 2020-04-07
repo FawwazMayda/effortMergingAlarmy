@@ -17,6 +17,13 @@
 		4D45E43B243C782300637259 /* SoundStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D45E43A243C782300637259 /* SoundStoryBoard.storyboard */; };
 		4D45E43D243C79D200637259 /* MeditationStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D45E43C243C79D200637259 /* MeditationStoryBoard.storyboard */; };
 		4D45E43F243C7A6600637259 /* AlarmStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D45E43E243C7A6600637259 /* AlarmStoryBoard.storyboard */; };
+		4D45E442243C7CCF00637259 /* FirstSoundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45E441243C7CCF00637259 /* FirstSoundVC.swift */; };
+		4D45E444243C7CE600637259 /* SecondSoundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45E443243C7CE600637259 /* SecondSoundVC.swift */; };
+		4D45E446243C7CFD00637259 /* FirstMeditationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45E445243C7CFD00637259 /* FirstMeditationVC.swift */; };
+		4D45E448243C7D1100637259 /* SecondMeditationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45E447243C7D1100637259 /* SecondMeditationVC.swift */; };
+		4D45E44A243C7D1D00637259 /* FirstAlarmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45E449243C7D1D00637259 /* FirstAlarmVC.swift */; };
+		4D45E44C243C7D2900637259 /* SecondAlarmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45E44B243C7D2900637259 /* SecondAlarmVC.swift */; };
+		4D45E44E243C7D3500637259 /* ThirdAlarmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45E44D243C7D3500637259 /* ThirdAlarmVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,13 @@
 		4D45E43A243C782300637259 /* SoundStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SoundStoryBoard.storyboard; sourceTree = "<group>"; };
 		4D45E43C243C79D200637259 /* MeditationStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MeditationStoryBoard.storyboard; sourceTree = "<group>"; };
 		4D45E43E243C7A6600637259 /* AlarmStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlarmStoryBoard.storyboard; sourceTree = "<group>"; };
+		4D45E441243C7CCF00637259 /* FirstSoundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSoundVC.swift; sourceTree = "<group>"; };
+		4D45E443243C7CE600637259 /* SecondSoundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSoundVC.swift; sourceTree = "<group>"; };
+		4D45E445243C7CFD00637259 /* FirstMeditationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMeditationVC.swift; sourceTree = "<group>"; };
+		4D45E447243C7D1100637259 /* SecondMeditationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMeditationVC.swift; sourceTree = "<group>"; };
+		4D45E449243C7D1D00637259 /* FirstAlarmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAlarmVC.swift; sourceTree = "<group>"; };
+		4D45E44B243C7D2900637259 /* SecondAlarmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAlarmVC.swift; sourceTree = "<group>"; };
+		4D45E44D243C7D3500637259 /* ThirdAlarmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdAlarmVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				4D45E422243C754400637259 /* AppDelegate.swift */,
+				4D45E440243C7BD100637259 /* ViewController */,
 				4D45E439243C756000637259 /* StoryBoard */,
 				4D45E424243C754400637259 /* SceneDelegate.swift */,
 				4D45E426243C754400637259 /* FirstViewController.swift */,
@@ -85,6 +100,44 @@
 				4D45E43E243C7A6600637259 /* AlarmStoryBoard.storyboard */,
 			);
 			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		4D45E440243C7BD100637259 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D45E451243C7D4E00637259 /* Alarm */,
+				4D45E450243C7D4200637259 /* Meditation */,
+				4D45E44F243C7D3A00637259 /* Sound */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4D45E44F243C7D3A00637259 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				4D45E441243C7CCF00637259 /* FirstSoundVC.swift */,
+				4D45E443243C7CE600637259 /* SecondSoundVC.swift */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		4D45E450243C7D4200637259 /* Meditation */ = {
+			isa = PBXGroup;
+			children = (
+				4D45E445243C7CFD00637259 /* FirstMeditationVC.swift */,
+				4D45E447243C7D1100637259 /* SecondMeditationVC.swift */,
+			);
+			path = Meditation;
+			sourceTree = "<group>";
+		};
+		4D45E451243C7D4E00637259 /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				4D45E449243C7D1D00637259 /* FirstAlarmVC.swift */,
+				4D45E44B243C7D2900637259 /* SecondAlarmVC.swift */,
+				4D45E44D243C7D3500637259 /* ThirdAlarmVC.swift */,
+			);
+			path = Alarm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,9 +215,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D45E429243C754400637259 /* SecondViewController.swift in Sources */,
+				4D45E442243C7CCF00637259 /* FirstSoundVC.swift in Sources */,
 				4D45E427243C754400637259 /* FirstViewController.swift in Sources */,
+				4D45E446243C7CFD00637259 /* FirstMeditationVC.swift in Sources */,
+				4D45E44C243C7D2900637259 /* SecondAlarmVC.swift in Sources */,
 				4D45E423243C754400637259 /* AppDelegate.swift in Sources */,
+				4D45E444243C7CE600637259 /* SecondSoundVC.swift in Sources */,
+				4D45E44E243C7D3500637259 /* ThirdAlarmVC.swift in Sources */,
+				4D45E448243C7D1100637259 /* SecondMeditationVC.swift in Sources */,
 				4D45E425243C754400637259 /* SceneDelegate.swift in Sources */,
+				4D45E44A243C7D1D00637259 /* FirstAlarmVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
