@@ -16,6 +16,7 @@
 		4D45E431243C754500637259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D45E42F243C754500637259 /* LaunchScreen.storyboard */; };
 		4D45E43B243C782300637259 /* SoundStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D45E43A243C782300637259 /* SoundStoryBoard.storyboard */; };
 		4D45E43D243C79D200637259 /* MeditationStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D45E43C243C79D200637259 /* MeditationStoryBoard.storyboard */; };
+		4D45E43F243C7A6600637259 /* AlarmStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D45E43E243C7A6600637259 /* AlarmStoryBoard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4D45E432243C754500637259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D45E43A243C782300637259 /* SoundStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SoundStoryBoard.storyboard; sourceTree = "<group>"; };
 		4D45E43C243C79D200637259 /* MeditationStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MeditationStoryBoard.storyboard; sourceTree = "<group>"; };
+		4D45E43E243C7A6600637259 /* AlarmStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlarmStoryBoard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				4D45E42A243C754400637259 /* Main.storyboard */,
 				4D45E43A243C782300637259 /* SoundStoryBoard.storyboard */,
 				4D45E43C243C79D200637259 /* MeditationStoryBoard.storyboard */,
+				4D45E43E243C7A6600637259 /* AlarmStoryBoard.storyboard */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				4D45E43D243C79D200637259 /* MeditationStoryBoard.storyboard in Resources */,
 				4D45E42C243C754400637259 /* Main.storyboard in Resources */,
 				4D45E43B243C782300637259 /* SoundStoryBoard.storyboard in Resources */,
+				4D45E43F243C7A6600637259 /* AlarmStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

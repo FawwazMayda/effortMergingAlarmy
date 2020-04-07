@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="u0Z-d5-cEs">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Alarm-->
+        <scene sceneID="5FP-q5-LvL">
+            <objects>
+                <viewController id="gau-UD-FiL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qGc-ib-7Du">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2s-p2-4AN">
+                                <rect key="frame" x="185" y="430" width="53" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="K1D-Jv-9Ub" kind="show" id="BHp-Ik-VGd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="hDw-NM-gqj"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Alarm" id="em4-Sx-7Hw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9HM-Ef-Frj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="876.81159420289862" y="67.633928571428569"/>
+        </scene>
+        <!--Alarm List-->
+        <scene sceneID="6je-uJ-cnt">
+            <objects>
+                <viewController id="K1D-Jv-9Ub" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qQg-kc-tSj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oxS-ir-BFK">
+                                <rect key="frame" x="185" y="444" width="55" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="LAK-fs-9Mf" kind="show" id="Bc3-vV-09e"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="clj-ds-3ng"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Alarm List" id="JZV-jB-f87"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HV0-0V-Nsf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1734.7826086956522" y="67.633928571428569"/>
+        </scene>
+        <!--Alarm Set-->
+        <scene sceneID="DIR-Qt-iBG">
+            <objects>
+                <viewController id="LAK-fs-9Mf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="V1a-qP-OGR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="zWg-Bv-6hn"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Alarm Set" id="ri0-RP-4PZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b3t-xu-YPY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2692.753623188406" y="67.633928571428569"/>
+        </scene>
+        <!--Alarm-->
+        <scene sceneID="kdo-eT-Ada">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="u0Z-d5-cEs" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Alarm" image="alarm" catalog="system" id="D4c-GC-eH7"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mBQ-uH-qzz">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="gau-UD-FiL" kind="relationship" relationship="rootViewController" id="Kg9-Kr-zs4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kfV-KK-cnZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-33.333333333333336" y="67.633928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="alarm" catalog="system" width="124" height="128"/>
+    </resources>
+</document>
