@@ -14,6 +14,7 @@
 		4D45E42C243C754400637259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D45E42A243C754400637259 /* Main.storyboard */; };
 		4D45E42E243C754500637259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D45E42D243C754500637259 /* Assets.xcassets */; };
 		4D45E431243C754500637259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D45E42F243C754500637259 /* LaunchScreen.storyboard */; };
+		4D45E43B243C782300637259 /* SoundStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D45E43A243C782300637259 /* SoundStoryBoard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4D45E42D243C754500637259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D45E430243C754500637259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D45E432243C754500637259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D45E43A243C782300637259 /* SoundStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SoundStoryBoard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,15 +61,24 @@
 			isa = PBXGroup;
 			children = (
 				4D45E422243C754400637259 /* AppDelegate.swift */,
+				4D45E439243C756000637259 /* StoryBoard */,
 				4D45E424243C754400637259 /* SceneDelegate.swift */,
 				4D45E426243C754400637259 /* FirstViewController.swift */,
 				4D45E428243C754400637259 /* SecondViewController.swift */,
-				4D45E42A243C754400637259 /* Main.storyboard */,
 				4D45E42D243C754500637259 /* Assets.xcassets */,
 				4D45E42F243C754500637259 /* LaunchScreen.storyboard */,
 				4D45E432243C754500637259 /* Info.plist */,
 			);
 			path = Alarmy;
+			sourceTree = "<group>";
+		};
+		4D45E439243C756000637259 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				4D45E42A243C754400637259 /* Main.storyboard */,
+				4D45E43A243C782300637259 /* SoundStoryBoard.storyboard */,
+			);
+			path = StoryBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +142,7 @@
 				4D45E431243C754500637259 /* LaunchScreen.storyboard in Resources */,
 				4D45E42E243C754500637259 /* Assets.xcassets in Resources */,
 				4D45E42C243C754400637259 /* Main.storyboard in Resources */,
+				4D45E43B243C782300637259 /* SoundStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
