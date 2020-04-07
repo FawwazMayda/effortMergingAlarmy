@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Meditation-->
+        <scene sceneID="DXT-zg-SET">
+            <objects>
+                <viewController id="mbb-dB-VeW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jBn-fs-OkA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wWb-Z9-HME">
+                                <rect key="frame" x="181" y="430" width="53" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="W9o-Mf-cux" kind="show" identifier="MeditationFirstToSecond" id="bcu-Vg-HcE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="ZyQ-nG-aYj"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Meditation" id="lAo-If-v3V"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vxd-38-i71" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="844.92753623188412" y="144.64285714285714"/>
+        </scene>
+        <!--Play Meditation-->
+        <scene sceneID="K00-nb-tMs">
+            <objects>
+                <viewController id="W9o-Mf-cux" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FtZ-Gy-VdY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Yuq-zo-9Pp"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Play Meditation" id="bqJ-RH-Ewj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qjg-eL-39C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1786" y="145"/>
+        </scene>
+        <!--Meditation-->
+        <scene sceneID="oRx-jF-34T">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="R09-jl-n8R" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Meditation" id="RI7-6S-hld"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="V9e-pX-MUW">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mbb-dB-VeW" kind="relationship" relationship="rootViewController" id="Taa-t2-3Hl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7FV-qG-dxl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-65.217391304347828" y="144.64285714285714"/>
+        </scene>
+    </scenes>
+</document>
